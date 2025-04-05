@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Harassment Detection System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>AI Harassment Detection System</h1>
+      <p>Real-time AI-powered detection using YOLOv8 Pose Estimation</p>
+    </header>
+
+    <!-- Video Demo -->
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/YTf5_9MIWwI" title="Project Demo" allowfullscreen></iframe>
+    </div>
+
+    <!-- Project Overview -->
+    <section class="description">
+      <h2>Overview</h2>
+      <p>
+        This system uses live webcam feed and YOLOv8 pose estimation to identify aggressive behavior such as potential harassment gestures. It alerts users via an alarm and sends email notifications in real-time, providing a proactive approach to ensure safety.
+      </p>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Live webcam video analysis</li>
+        <li>YOLOv8 Pose Estimation for gesture detection</li>
+        <li>Alarm trigger on detection</li>
+        <li>Email alert system</li>
+        <li>Simple, fast, and customizable</li>
+      </ul>
+    </section>
+
+    <!-- Setup Instructions -->
+    <section class="instructions">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Clone this repository:</li>
+        <pre><code>git clone https://github.com/Divyansh-Code06/Harassment-Detection-System.git</code></pre>
+        <li>Install dependencies:</li>
+        <pre><code>pip install opencv-python numpy ultralytics simpleaudio</code></pre>
+        <li>Download <code>yolov8n-pose.pt</code> model and place it in the project folder.</li>
+        <li>Add <code>alarm.wav</code> in the project folder.</li>
+        <li>Run the detection script:</li>
+        <pre><code>python harassment_detection_mvp.py</code></pre>
+      </ol>
+    </section>
+
+    <!-- GitHub Button -->
+    <div class="button-wrapper">
+      <a href="https://github.com/Divyansh-Code06/Harassment-Detection-System" target="_blank" class="gh-button">
+        View on GitHub
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 AI Harassment Detection System</p>
+    </footer>
+  </div>
+</body>
+</html>
