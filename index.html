@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI Harassment Detection System</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -11,31 +11,41 @@
     <!-- Header -->
     <header>
       <h1>AI Harassment Detection System</h1>
-      <p>Real-time AI-powered detection using YOLOv8 Pose Estimation</p>
+      <p>Real-time AI-powered safety solution using YOLOv8 Pose Estimation</p>
     </header>
 
-    <!-- Video Demo -->
-    <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/YTf5_9MIWwI" title="Project Demo" allowfullscreen></iframe>
+    <!-- Video Section -->
+    <div class="video-grid">
+      <!-- Full Demo -->
+      <div class="video-wrapper long-video">
+        <h2>Full Demo</h2>
+        <iframe src="https://www.youtube.com/embed/LTKCX3IGJVY?feature=shared" title="Full Demo Video" allowfullscreen></iframe>
+      </div>
+
+      <!-- YouTube Short -->
+      <div class="video-wrapper short-video">
+        <h2>Short Overview</h2>
+        <iframe src="https://www.youtube.com/embed/YTf5_9MIWwI" title="Short Video" allowfullscreen></iframe>
+      </div>
     </div>
 
     <!-- Project Overview -->
     <section class="description">
       <h2>Overview</h2>
       <p>
-        This system uses live webcam feed and YOLOv8 pose estimation to identify aggressive behavior such as potential harassment gestures. It alerts users via an alarm and sends email notifications in real-time, providing a proactive approach to ensure safety.
+        Our system actively monitors webcam feed to detect gestures related to potential harassment using YOLOv8 pose estimation. It promptly triggers an alarm and sends an email alert, offering immediate response and improved safety.
       </p>
     </section>
 
-    <!-- Features -->
+    <!-- Key Features -->
     <section class="features">
       <h2>Key Features</h2>
       <ul>
-        <li>Live webcam video analysis</li>
+        <li>Real-time webcam feed analysis</li>
         <li>YOLOv8 Pose Estimation for gesture detection</li>
-        <li>Alarm trigger on detection</li>
-        <li>Email alert system</li>
-        <li>Simple, fast, and customizable</li>
+        <li>Automatic alarm activation on suspicious detection</li>
+        <li>Email alerts to authorities for immediate response</li>
+        <li>Modular, lightweight, and easy to deploy</li>
       </ul>
     </section>
 
@@ -43,12 +53,12 @@
     <section class="instructions">
       <h2>How to Use</h2>
       <ol>
-        <li>Clone this repository:</li>
+        <li>Clone the repository:</li>
         <pre><code>git clone https://github.com/Divyansh-Code06/Harassment-Detection-System.git</code></pre>
-        <li>Install dependencies:</li>
+        <li>Install required dependencies:</li>
         <pre><code>pip install opencv-python numpy ultralytics simpleaudio</code></pre>
-        <li>Download <code>yolov8n-pose.pt</code> model and place it in the project folder.</li>
-        <li>Add <code>alarm.wav</code> in the project folder.</li>
+        <li>Place <code>yolov8n-pose.pt</code> in the root directory.</li>
+        <li>Add <code>alarm.wav</code> for audio alerts.</li>
         <li>Run the detection script:</li>
         <pre><code>python harassment_detection_mvp.py</code></pre>
       </ol>
@@ -63,7 +73,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2025 AI Harassment Detection System</p>
+      <p>&copy; 2025 Byte Seekers | Built with 💡 by Divyansh (Team Lead), Shivani, Simran & Sakshi</p>
     </footer>
   </div>
 </body>
